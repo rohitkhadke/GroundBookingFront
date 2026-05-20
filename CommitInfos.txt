@@ -1,0 +1,2 @@
+Checked 4   git commit -m "Checked 4 Working All Fine "       
+working good all just need to fix calander (its taking date that is past date for form to to..)

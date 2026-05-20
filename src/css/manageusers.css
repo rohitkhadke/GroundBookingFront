@@ -1,0 +1,74 @@
+.manage-container {
+  padding: 25px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 220px;
+  padding: 8px;
+}
+
+.search-box button {
+  margin-left: 8px;
+  padding: 8px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.search-box {
+  width: fit-content;   /* 🔥 prevents full width */
+  margin: 0 auto 20px auto;
+}
+.table-container {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+th {
+  background: #000000;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+  
+}
+
+.view-btn {
+  padding: 5px 10px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.booking-box {
+  margin-top: 25px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}

@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: #eef2f7; /* slightly darker background */
+}
+
+/* PAGE */
+.admin-page {
+  padding: 40px;
+}
+
+/* HEADER */
+.admin-header h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.admin-header p {
+  color: #555;
+}
+
+/* GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+/* CARD */
+.message-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px;
+  border: 1px solid #dcdfe4;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.25s ease;
+}
+
+.message-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+/* TOP */
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.email {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* BADGE */
+.badge {
+  font-size: 12px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.badge.new {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.badge.read {
+  background: #bbf7d0;
+  color: #065f46;
+}
+
+/* MESSAGE */
+.message-text {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* BUTTONS */
+.card-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* BUTTON BASE */
+.btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* READ BUTTON */
+.btn.secondary {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.btn.secondary:hover {
+  background: #c7d2fe;
+}
+
+/* DELETE BUTTON */
+.btn.danger {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.btn.danger:hover {
+  background: #fecaca;
+}
