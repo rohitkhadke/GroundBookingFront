@@ -210,4 +210,4 @@ Integrated with Cashfree Payment Gateway in test mode.
 
 # 👨‍💻 Author
 
-Pratik Mashakhetri
+Rohit Khadke
